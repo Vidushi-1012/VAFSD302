@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>|GRID LAYOUT 3|</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        main{
+            width: 1200px;
+            height: auto;
+            background-color: rgb(171, 254, 255);
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 100px 80px 100px 800px 80px;
+        }
+
+        #logo, header, article, footer,nav
+        {
+            background-color: rgb(198, 193, 245);
+            margin-top: 5px;
+            align-content: center;
+            text-align: center;
+
+
+        }
+
+        .sec{
+            
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <div id="logo"><h2>Logo</h2></div>
+
+        <nav><h2>Navigation Bar</h2></nav>
+
+        <header><h2>Header</h2></header>
+
+        <div id="section">
+            <div class="sec"><h2>Side Bar Nav</h2></div>
+            <div class="sec"><h2>Body Area</h2></div>
+        </div>
+
+        <footer><h2>Footer</h2></footer>
+    </main>
+    
+</body>
+</html>

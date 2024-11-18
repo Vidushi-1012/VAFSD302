@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LAYOUT 5 ||HTML||</title>
+    <title>Document</title>
     <style>
         * {
             margin: 0;
@@ -14,88 +15,86 @@
         main {
             width: 900px;
             height: 100%;
-            /* background-color:rgb(112, 79, 37); */
             margin: 0 auto;
         }
 
         #logo {
             width: 900px;
             height: 100px;
-            background-color: #ccffc8;
-            margin: 5px 0;
+            background-color:  #ccffc8;
             text-align: center;
             align-content: center;
         }
 
-        #mid {
-            width: 40px;
-            height: 600px;
+        #complex {
+            width: 900px;
+            height: 460px;
             /* background-color: #999; */
             display: flex;
             flex-direction: row;
         }
 
         #side {
-            width: 390px;
-            height: 460px;
+            width: 400px;
+            height: 455px;
             margin: 5px;
             background-color: #f2f29a;
             /* display: flex; */
             /* flex-direction: row; */
             /* gap: 5px; */
-        }
-
-        header {
-            width: 500px;
-            height: 100px;
-            background-color: #b8fdf6;
-            margin: 5px 0;
             text-align: center;
             align-content: center;
-            float: right;
         }
 
         #right {
             width: 500px;
             height: 460px;
-            background-color: #c0ffbb;
             display: block;
         }
 
-        #body_area {
+        header {
             width: 500px;
-            height: 600px;
-            background-color: rgb(255, 254, 191);
-            text-align: center;
+            height: 100px;
+            background-color: #ffadad;
             margin: 5px 0;
+            text-align: center;
             align-content: center;
-            float: right;
+        }
+
+
+        #bodyarea {
+            width: 500px;
+            height: 350px;
+            background-color:rgb(253, 205, 186);
+            margin: 5px 0;
+            text-align: center;
+            align-content: center;
 
         }
 
         footer {
             width: 900px;
             height: 100px;
+            background-color: #ffaedc;
             margin: 5px 0;
-            background-color: #ceb8fa;
             text-align: center;
             align-content: center;
         }
-
     </style>
 </head>
+
 <body>
     <main>
         <div id="logo">
             <h2>Logo</h2>
         </div>
-        <div id="Mid">
+        <div id="complex">
             <div id="side">
-                <h2>Side Bar Navigation</h2>
+                <h2>Side Bar</h2>
             </div>
             <div id="right">
                 <header>
-                    <h2>Header</h2>
+                    <h2>Header/Banner</h2>
                 </header>
                 <div id="bodyarea">
                     <h2>Body Area</h2>
@@ -109,4 +108,5 @@
 
     </main>
 </body>
+
 </html>
